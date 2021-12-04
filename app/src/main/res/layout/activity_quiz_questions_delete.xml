@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--TODO (STEP 1: Design the QuizQuestionsActivity layout.)-->
+<!--START-->
+<!--List of the points for to do :
+    1. The custom drawable is added in the drawable folder which used as background.-->
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -15,7 +19,7 @@
         android:padding="16dp">
 
         <TextView
-            android:id="@+id/tvQuestion"
+            android:id="@+id/tv_question"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -25,15 +29,15 @@
             tools:text="What country does this flag belong to?" />
 
         <ImageView
-            android:id="@+id/ivImage"
+            android:id="@+id/iv_image"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:contentDescription="Quiz Image"
+            android:contentDescription="image"
             tools:src="@drawable/ic_flag_of_germany" />
 
         <LinearLayout
-            android:id="@+id/llProgressDetails"
+            android:id="@+id/ll_progress_details"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -52,7 +56,7 @@
                 android:progress="0" />
 
             <TextView
-                android:id="@+id/tvProgress"
+                android:id="@+id/tv_progress"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -63,7 +67,7 @@
         </LinearLayout>
 
         <TextView
-            android:id="@+id/tvOptionOne"
+            android:id="@+id/tv_option_one"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -75,7 +79,7 @@
             tools:text="Apple" />
 
         <TextView
-            android:id="@+id/tvOptionTwo"
+            android:id="@+id/tv_option_two"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
@@ -90,7 +94,7 @@
             tools:text="Google" />
 
         <TextView
-            android:id="@+id/tvOptionThree"
+            android:id="@+id/tv_option_three"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
@@ -105,7 +109,7 @@
             tools:text="Android Inc." />
 
         <TextView
-            android:id="@+id/tvOptionFour"
+            android:id="@+id/tv_option_four"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
@@ -120,7 +124,7 @@
             tools:text="Nokia" />
 
         <Button
-            android:id="@+id/btnSubmit"
+            android:id="@+id/btn_submit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
